@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Bag
+  - Coin
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Blocking Layer
   - 
   - 
   - 
@@ -40,4 +44,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 836536941
+    locked: 0
+  - name: Coins
+    uniqueID: 2921837697
+    locked: 0
+  - name: Units
+    uniqueID: 3445867057
+    locked: 0
+  - name: end
+    uniqueID: 2002926483
     locked: 0
